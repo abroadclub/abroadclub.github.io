@@ -12,7 +12,7 @@ Não é sorte, é plano. Separei aqui o que mais faz sentido pra quem tá indo a
 
 Esses são os cursos técnicos do SENAI que mais batem com as áreas de escassez (*skill shortage*) da Austrália. Na maioria das unidades, principalmente noturno e subsequente, a duração fica entre 18 e 24 meses, com carga horária típica de 1.200 a 1.500h. Dá quase o tempo exato pra bater o requisito de educação formal do WHV 462.
 
-<div class="table-scroll">
+<div class="table-scroll" markdown="1">
 
 | Curso técnico SENAI | Profissão / área | Duração comum | Relevância na AU |
 |---|---|---|---|
@@ -32,7 +32,7 @@ A duração real varia por estado e unidade: diurno costuma ser mais rápido, no
 
 Pro segundo ano do 462, você precisa completar pelo menos 88 dias de specified work em área e indústria elegível. As regiões abaixo são as mais batidas, e mais confiáveis, pra quem quer resolver isso sem enrolação.
 
-<div class="table-scroll">
+<div class="table-scroll" markdown="1">
 
 | Estado | Áreas recomendadas | Trabalho comum | Observação |
 |---|---|---|---|
