@@ -25,6 +25,7 @@ Esses são os cursos técnicos do SENAI que mais batem com as áreas de escassez
 | Automação Industrial | Técnico em automação | 20–24 meses | Média-alta |
 
 </div>
+<p class="scroll-hint" data-scroll-hint>arraste pro lado pra ver a tabela toda</p>
 
 A duração real varia por estado e unidade: diurno costuma ser mais rápido, noturno e subsequente chegam perto ou passam dos 2 anos. Confirma sempre direto na unidade do SENAI da sua cidade antes de se matricular.
 
@@ -45,6 +46,7 @@ Pro segundo ano do 462, você precisa completar pelo menos 88 dias de specified 
 | Northern Territory / Norte QLD | Darwin, Katherine, Cairns (algumas áreas) | Hospitality (só Northern/Remote) + farm | Hospitality só conta em área Northern/Remote |
 
 </div>
+<p class="scroll-hint" data-scroll-hint>arraste pro lado pra ver a tabela toda</p>
 
 ## 3. Dicas práticas
 
