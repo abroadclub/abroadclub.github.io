@@ -169,6 +169,49 @@ img { max-width: 100%; display: block; }
   margin: 0;
 }
 
+/* ---- Topics (guides) ---- */
+.topics-section { padding: 56px 0 8px; }
+
+.topics-section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.topic-card {
+  display: block;
+  padding: 24px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.topic-card:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+}
+
+.topic-card h3 {
+  color: var(--text);
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+.topic-card .excerpt {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin: 0 0 14px;
+}
+
+.topic-card .topic-link {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
 .empty-state {
   color: var(--text-muted);
   padding: 24px;

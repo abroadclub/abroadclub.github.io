@@ -9,6 +9,22 @@ layout: default
   </div>
 </section>
 
+{% assign topics = site.pages | where: "topic", true %}
+{% if topics.size > 0 %}
+<section class="topics-section">
+  <div class="wrap">
+    <h2>Guias</h2>
+    {% for topic in topics %}
+    <a class="topic-card" href="{{ topic.url | relative_url }}">
+      <h3>{{ topic.title }}</h3>
+      <p class="excerpt">{{ topic.topic_summary | default: topic.excerpt }}</p>
+      <span class="topic-link">Abrir guia →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <section class="posts-section">
   <div class="wrap">
     <h2>Últimos posts</h2>

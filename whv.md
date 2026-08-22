@@ -2,6 +2,8 @@
 layout: page
 title: "Cursos SENAI + Áreas Remotas pra Renovar o WHV"
 permalink: /whv/
+topic: true
+topic_summary: "Cursos técnicos que abrem porta na Austrália e as regiões certas pra bater os 88 dias e renovar o visto."
 ---
 
 Se você tá pensando em vir pra Austrália com o Working Holiday Visa (subclass 462), ou já tá aqui e quer o segundo ano, duas coisas pesam muito a seu favor: ter um curso técnico na bagagem e saber exatamente onde bater o ponto pros 88 dias de trabalho especificado.
