@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Abroad Club</span>
+    <h1>{{ site.tagline }}</h1>
+    <p>{{ site.description }}</p>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="wrap">
+    <h2>Últimos posts</h2>
+    {% if site.posts.size > 0 %}
+      {% for post in site.posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        <span class="post-date">{{ post.date | date: "%d de %B, %Y" }}</span>
+        <h3>{{ post.title }}</h3>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+      </a>
+      {% endfor %}
+    {% else %}
+      <div class="empty-state">Nenhum post ainda. Em breve.</div>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© {{ 'now' | date: "%Y" }} {{ site.title }}. Feito por quem foi atrás.</p>
+    {% if site.instagram %}
+    <div class="socials">
+      <a href="https://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener">Instagram →</a>
+    </div>
+    {% endif %}
+  </div>
+</footer>

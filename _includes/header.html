@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrap">
+    <a href="{{ '/' | relative_url }}" class="logo-block">
+      {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+      {% else %}
+        <span class="logo-fallback">ABROAD<span>CLUB</span></span>
+      {% endif %}
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Posts</a>
+      <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+    </nav>
+  </div>
+</header>

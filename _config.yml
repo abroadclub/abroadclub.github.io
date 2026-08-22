@@ -1,10 +1,19 @@
 title: Abroad Club
-description: Histórias, opiniões e bastidores da minha jornada.
-theme: minima
-minima:
-  skin: dark
-show_excerpts: true
+tagline: Pra quem não se contenta em ficar parado.
+description: Histórias, opiniões e bastidores de quem foi atrás da vida lá fora.
 permalink: /:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

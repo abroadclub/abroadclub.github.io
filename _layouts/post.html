@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article>
+  <header class="article-header">
+    <div class="wrap">
+      <a class="back-link" href="{{ '/' | relative_url }}">← Todos os posts</a>
+      <span class="post-date">{{ page.date | date: "%d de %B, %Y" }}</span>
+      <h1>{{ page.title }}</h1>
+    </div>
+  </header>
+  <div class="article-body">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </div>
+</article>
