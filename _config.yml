@@ -1,4 +1,6 @@
 title: Abroad Club
+logo: /assets/logo-header.png
+favicon: /assets/logo.png
 tagline: Pra quem não se contenta em ficar parado.
 description: Histórias, opiniões e bastidores de quem foi atrás da vida lá fora.
 permalink: /:year/:month/:day/:title/
