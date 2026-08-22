@@ -1,0 +1,10 @@
+title: Blog do João
+description: Histórias, opiniões e bastidores da minha jornada.
+theme: minima
+minima:
+  skin: dark
+show_excerpts: true
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
