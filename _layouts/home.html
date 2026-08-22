@@ -31,7 +31,7 @@ layout: default
     {% if site.posts.size > 0 %}
       {% for post in site.posts %}
       <a class="post-card" href="{{ post.url | relative_url }}">
-        <span class="post-date">{{ post.date | date: "%d de %B, %Y" }}</span>
+        <span class="post-date">{% include date_pt.html date=post.date %}</span>
         <h3>{{ post.title }}</h3>
         <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
       </a>

@@ -5,7 +5,7 @@ layout: default
   <header class="article-header">
     <div class="wrap">
       <a class="back-link" href="{{ '/' | relative_url }}">← Todos os posts</a>
-      <span class="post-date">{{ page.date | date: "%d de %B, %Y" }}</span>
+      <span class="post-date">{% include date_pt.html date=page.date %}</span>
       <h1>{{ page.title }}</h1>
     </div>
   </header>
