@@ -18,4 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", update);
     update();
   });
+
+  var rotator = document.querySelector("[data-rotator]");
+  if (rotator) {
+    var phrases = [
+      "ficar parado.",
+      "esperar a vida acontecer.",
+      "aceitar o que sobrou.",
+      "ver os outros saírem na frente.",
+      "ficar na zona de conforto.",
+      "seguir a manada."
+    ];
+    var i = 0;
+    setInterval(function () {
+      rotator.classList.add("is-swapping");
+      setTimeout(function () {
+        i = (i + 1) % phrases.length;
+        rotator.textContent = phrases[i];
+        rotator.classList.remove("is-swapping");
+      }, 320);
+    }, 2200);
+  }
 });
