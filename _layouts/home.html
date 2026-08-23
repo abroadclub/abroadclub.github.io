@@ -11,25 +11,18 @@ layout: default
 </section>
 
 {% assign topics = site.pages | where: "topic", true %}
-{% if topics.size > 0 %}
-<section class="topics-section">
-  <div class="wrap">
-    <h2>Guias</h2>
-    {% for topic in topics %}
-    <a class="topic-card" href="{{ topic.url | relative_url }}">
-      <h3>{{ topic.title }}</h3>
-      <p class="excerpt">{{ topic.topic_summary | default: topic.excerpt }}</p>
-      <span class="topic-link">Abrir guia →</span>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
 
 <section class="posts-section">
   <div class="wrap">
-    <h2>Últimos posts</h2>
-    {% if site.posts.size > 0 %}
+    <h2>Conteúdo</h2>
+    {% if topics.size > 0 or site.posts.size > 0 %}
+      {% for topic in topics %}
+      <a class="post-card" href="{{ topic.url | relative_url }}">
+        <span class="post-date post-tag">Guia</span>
+        <h3>{{ topic.title }}</h3>
+        <p class="excerpt">{{ topic.topic_summary | default: topic.excerpt }}</p>
+      </a>
+      {% endfor %}
       {% for post in site.posts %}
       <a class="post-card" href="{{ post.url | relative_url }}">
         <span class="post-date">{% include date_pt.html date=post.date %}</span>
@@ -38,7 +31,7 @@ layout: default
       </a>
       {% endfor %}
     {% else %}
-      <div class="empty-state">Nenhum post ainda. Em breve.</div>
+      <div class="empty-state">Nenhum conteúdo ainda. Em breve.</div>
     {% endif %}
   </div>
 </section>
