@@ -283,6 +283,71 @@ img { max-width: 100%; display: block; }
   display: block;
 }
 
+/* ---- Photo scatter (About page) ---- */
+.photo-scatter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0;
+  margin: 2.4em 0;
+  padding: 0 4px;
+}
+
+.photo-tilt {
+  width: 46%;
+  max-width: 220px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid var(--surface);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  background: var(--bg-elevated);
+  transition: transform 0.25s ease;
+  margin: 0 !important;
+}
+
+.tilt-left {
+  transform: rotate(-6deg) translateY(6px);
+  z-index: 1;
+}
+
+.tilt-right {
+  transform: rotate(5deg) translateY(-8px);
+  margin-left: -22px !important;
+  z-index: 2;
+}
+
+.photo-tilt:hover {
+  transform: rotate(0deg) translateY(-4px) scale(1.04);
+  z-index: 3;
+}
+
+.photo-strip {
+  display: flex;
+  gap: 10px;
+  margin: 2.4em 0 0.4em;
+  padding: 4px 4px 14px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.photo-strip img {
+  flex: 0 0 auto;
+  width: 130px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  margin: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .photo-tilt { max-width: 155px; }
+  .tilt-right { margin-left: -16px !important; }
+  .photo-strip img { width: 108px; }
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 24px;
