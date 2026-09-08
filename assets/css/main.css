@@ -124,7 +124,7 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 
-.hero .eyebrow {
+.eyebrow {
   display: inline-block;
   color: var(--accent);
   font-weight: 600;
@@ -356,6 +356,49 @@ img { max-width: 100%; display: block; }
 }
 
 .back-link:hover { color: var(--accent); }
+
+/* ---- Featured block (e.g. "O que é a Abroad Club") ---- */
+.feature-block {
+  text-align: center;
+  padding: 8px 0 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.feature-block h2 {
+  font-size: clamp(1.7rem, 6vw, 2.3rem);
+  margin-top: 0;
+}
+
+.feature-block p {
+  text-align: left;
+}
+
+.feature-block .btn-cta {
+  margin-top: 12px;
+}
+
+/* ---- Founder block (discreet, tucked at the bottom of the page) ---- */
+.founder-block {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.founder-block .eyebrow {
+  display: block;
+  text-align: left;
+}
+
+.founder-block h2 {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-top: 0;
+}
+
+.founder-block p {
+  font-size: 0.96rem;
+}
 
 /* ---- Rich content: lists & tables ---- */
 .article-body ul,

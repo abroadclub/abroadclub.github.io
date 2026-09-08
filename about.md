@@ -4,7 +4,29 @@ title: Sobre
 permalink: /sobre/
 ---
 
-## Quem é João Witor?
+<div class="feature-block" markdown="1">
+<span class="eyebrow">Abroad Club</span>
+
+## O que é a Abroad Club
+
+A Abroad Club nasceu da mesma vontade que me tirou do Brasil: ir atrás do que você quer, em vez de aceitar o que te deram.
+
+É pra quem já cansou de esperar o momento perfeito e prefere agir: pesquisar visto, aprender uma profissão, guardar dinheiro, se organizar, sair do lugar de verdade.
+
+Aqui dentro tem guia prático (curso técnico que abre porta lá fora, visto, região, o que evitar) e uma comunidade de gente que também tá correndo atrás e troca experiência real em vez de só consumir conteúdo.
+
+A entrada tem um formulário de aplicação porque o grupo funciona melhor com gente disposta a ajudar e ser ajudada de verdade.
+
+Se isso soa com você:
+
+<a class="btn-cta" href="{{ '/aplicar/' | relative_url }}">Quero entrar na comunidade</a>
+
+</div>
+
+<div class="founder-block" markdown="1">
+<span class="eyebrow">Quem tá por trás</span>
+
+## João Witor
 
 Aos 13 anos eu já sabia que queria morar fora. Cresci de classe média, sem luxo mas sem faltar nada, meio inseguro e sem muitos amigos.
 
@@ -52,16 +74,4 @@ Se aprendi uma coisa com tudo isso: não interessa o quão ruim a fase parece, v
   <img src="{{ '/assets/about/joao-casamento-02.jpg' | relative_url }}" alt="Pedido de casamento em Paris" loading="lazy">
 </div>
 
-## O que é a Abroad Club
-
-A Abroad Club nasceu da mesma vontade que me tirou do Brasil: ir atrás do que você quer, em vez de aceitar o que te deram.
-
-É pra quem já cansou de esperar o momento perfeito e prefere agir: pesquisar visto, aprender uma profissão, guardar dinheiro, se organizar, sair do lugar de verdade.
-
-Aqui dentro tem guia prático (curso técnico que abre porta lá fora, visto, região, o que evitar) e uma comunidade de gente que também tá correndo atrás e troca experiência real em vez de só consumir conteúdo.
-
-A entrada tem um formulário de aplicação porque o grupo funciona melhor com gente disposta a ajudar e ser ajudada de verdade.
-
-Se isso soa com você:
-
-<a class="btn-cta" href="{{ '/aplicar/' | relative_url }}">Quero entrar na comunidade</a>
+</div>
