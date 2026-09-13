@@ -14,3 +14,8 @@ layout: default
     </div>
   </div>
 </article>
+{% if page.topic %}
+<div class="wrap">
+  {% include related.html %}
+</div>
+{% endif %}

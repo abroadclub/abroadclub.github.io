@@ -223,6 +223,20 @@ img { max-width: 100%; display: block; }
   margin: 0;
 }
 
+.related-section {
+  padding: 24px 0 56px;
+  border-top: 1px solid var(--border);
+  margin-top: 8px;
+}
+
+.related-section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
 .post-card .post-tag {
   color: #fff;
   background: var(--accent);

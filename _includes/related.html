@@ -1,0 +1,21 @@
+{% assign topics = site.pages | where: "topic", true %}
+{% assign pool = site.posts | concat: topics %}
+{% assign others = pool | where_exp: "item", "item.url != page.url" %}
+{% assign picks = others | sample: 2 %}
+
+{% if picks.size > 0 %}
+<section class="related-section">
+  <h2>Talvez você goste disso</h2>
+  {% for item in picks %}
+  <a class="post-card" href="{{ item.url | relative_url }}">
+    {% if item.topic %}
+      <span class="post-date post-tag">Guia</span>
+    {% else %}
+      <span class="post-date">{% include date_pt.html date=item.date %}</span>
+    {% endif %}
+    <h3>{{ item.title }}</h3>
+    <p class="excerpt">{{ item.topic_summary | default: item.excerpt | strip_html | truncate: 140 }}</p>
+  </a>
+  {% endfor %}
+</section>
+{% endif %}
