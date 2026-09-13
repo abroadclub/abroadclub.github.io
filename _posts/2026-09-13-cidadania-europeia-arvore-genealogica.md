@@ -4,7 +4,14 @@ title: "Como descobrir se você tem cidadania europeia"
 date: 2026-09-13 09:00:00 +0000
 ---
 
+<a class="video-thumb" href="https://u2l.ai/HgRBEX" target="_blank" rel="noopener">
+  <img src="{{ '/assets/posts/thumb-cidadania-europeia.jpg' | relative_url }}" alt="Como descobrir se você tem cidadania europeia — assista o vídeo completo" loading="lazy">
+  <span class="play-button" aria-hidden="true">▶</span>
+</a>
+
 Dá pra descobrir se você tem direito a um passaporte europeu só respondendo algumas perguntas sobre a sua família. Gravei um vídeo completo mostrando o passo a passo com um site gratuito, o FamilySearch, que junta um banco de dados gigante de árvores genealógicas do mundo inteiro. Aqui no post vou direto no que mais importa: até onde cada país deixa você puxar a cidadania pelos seus antepassados.
+
+> Esse vídeo foi gravado em 07/09/2026. Regra de cidadania muda com frequência, então confirma a data e a informação antes de tomar qualquer decisão. Se você for realmente aplicar, fala com um profissional da área (advogado ou despachante especializado em cidadania) antes de gastar dinheiro ou tempo com isso.
 
 ## Como funciona o FamilySearch
 
